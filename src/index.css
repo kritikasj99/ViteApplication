@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark1: #352F44;
+    --color-dark2: #5C5470;
+    --color-dark3: #B9B4C7;
+    --color-dark4: #FAF0E6;
+}
+
+.btn {
+    @apply px-4 py-1 cursor-pointer rounded
+}
+
+.btn-primary {
+    @apply bg-blue-500 hover:bg-blue-300
+}
+
+.btn-danger {
+    @apply bg-red-500 hover:bg-red-300
+}
+.btn-success {
+    @apply bg-green-500 hover:bg-green-300
+}
+
+.navlink-active {
+    @apply text-blue-600 bg-transparent
+}
