@@ -10,8 +10,6 @@ import NotFound from '../pages/NotFound';
 import Layout from "./Layout";
 import LandingPage from "./LandingPage";
 import ProductList from "./ProductList";
-import UseEffectHook from "./UseEffectHook";
-import Timer from "./timer";
 import ProductsLists from "./ProductsLists";
 const router=createBrowserRouter([
     {
@@ -56,14 +54,7 @@ const router=createBrowserRouter([
                 element:<ProductsLists/>
 
             },
-            {
-                path:"useeffect",
-                element:<UseEffectHook/>
-            },
-            {
-                path:"timer",
-                element:<Timer/>
-            },
+            
             {
                 path:"*",
                 element:<NotFound/>
